@@ -1,6 +1,6 @@
 # Secretary (Secretaris)
 
-> Part of the [US Basketball Bestuur](./CLAUDE.md). Contact: secretaris@usbasketball.nl
+> Part of the [US Basketball Bestuur](./AGENTS.md). Contact: secretaris@usbasketball.nl
 
 The secretary owns the **membership records** for the club, which are kept in sync across three systems:
 
@@ -67,7 +67,7 @@ For 5v5 members (competition and recreational), updates are usually finalised af
 
 ---
 
-## Future Claude Use Cases
+## Future AI Use Cases
 
 - Drafting member registration/de-registration confirmation emails
 - Checking consistency between membership lists
