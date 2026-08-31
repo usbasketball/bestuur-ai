@@ -2,7 +2,7 @@
 
 ## About US Basketball
 
-[U.S. Basketball Amsterdam](https://www.usbasketball.nl) is one of Amsterdam's basketball clubs, founded in 1951. The club motto is *"If you can't beat US, join US."* It is a senior-only club (18+) with 12 teams (men's and women's), playing home games on Sundays at the **Amstelcampushal** (Tweede Boerhaavestraat 10, Amsterdam). The club is affiliated with the **NBB** (Nederlandse Basketball Bond) and uses **club.basketball** (powered by Focus on Your Sport) as its primary membership management system.
+[U.S. Basketball Amsterdam](https://usbasketball.nl) is one of Amsterdam's basketball clubs, founded in 1951. The club motto is *"If you can't beat US, join US."* It is a senior-only club (18+) with 12 teams (men's and women's), playing home games on Sundays at the **Amstelcampushal** (Tweede Boerhaavestraat 10, Amsterdam). The club is affiliated with the **NBB** (Nederlandse Basketball Bond) and uses **club.basketball** (powered by Focus on Your Sport) as its primary membership management system.
 
 Membership types at US:
 - **Competition players** (wedstrijdspelend) — play in official NBB leagues, train 1–2x per week
@@ -32,11 +32,11 @@ The board can be reached at **bestuur@usbasketball.nl**.
 
 | Resource | URL / Contact |
 |----------|---------------|
-| Club website | https://www.usbasketball.nl |
+| Club website | https://usbasketball.nl |
 | Membership system | https://club.basketball.nl |
 | NBB club page | https://basketball.nl/basketball/competities/vereniging-zoeken/#/clubs/2f1e5e8e-e2c5-4d8b-9d21-1584bc6c8d5a/details |
-| Duty schedule | https://www.usbasketball.nl/takenschema |
-| Training schedule | https://www.usbasketball.nl/trainingschema |
+| Duty schedule | https://usbasketball.nl/takenschema |
+| Training schedule | https://usbasketball.nl/trainingschema |
 | Board email | bestuur@usbasketball.nl |
 | Secretary email | secretaris@usbasketball.nl |
 | Annual planning | See Jaarplanning.docx (Google Drive) |
@@ -72,6 +72,7 @@ Specialised workflows are bundled as skills using the [Agent Skills](https://age
 | Skill | Path | What it does |
 |-------|------|--------------|
 | gmail-triage | `.agents/skills/gmail-triage/SKILL.md` | Scans a Gmail inbox, classifies each email as relevant / uncertain / irrelevant, presents a structured summary, and deletes irrelevant emails only after user confirmation |
+| registration-form-link | `.agents/skills/registration-form-link/SKILL.md` | Generates signed, expiring registration links (`/register`) for https://usbasketball.nl (production) |
 
 If a tool does not support Agent Skills natively, read the `SKILL.md` file directly and follow its steps.
 
